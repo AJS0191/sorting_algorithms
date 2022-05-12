@@ -26,6 +26,8 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
-
-
+void merge_sort(int *array, size_t size);
+void maxHeapify(int *array, size_t index, size_t size);
+void makeMaxHeap(int *array, size_t len, size_t size);
+void heap_sort(int *array, size_t size);
 #endif /* SORT_H*/
