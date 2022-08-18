@@ -20,6 +20,8 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+void splitM(int *array, int *arr, int first, int last);
+void merge(int *array, int *arr, int first, int mid, int last);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
